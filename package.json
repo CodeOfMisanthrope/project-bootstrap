@@ -1,0 +1,33 @@
+{
+  "name": "project-bootstrap",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Repository for creating a better bootstrap project",
+  "author": {
+    "name": "CodeOfMisanthrope",
+    "email": "iosdsbb@gmail.com",
+    "url": "https://github.com/CodeOfMisanthrope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeOfMisanthrope/project-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeOfMisanthrope/project-bootstrap/issues"
+  },
+  "keywords": [
+    "BFF",
+    "SSR"
+  ],
+  "type": "module",
+  "packageManager": "yarn@4.6.0",
+  "workspaces": [
+    "packages/client",
+    "packages/common",
+    "packages/server"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "typescript": "^5.7.3"
+  }
+}
