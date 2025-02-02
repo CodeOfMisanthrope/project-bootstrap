@@ -66,12 +66,15 @@ const config = {
       new TerserPlugin({
         test: /\.js(\?.*)?$/i,
         extractComments: "all",
-        parallel: false,
+        parallel: true,
         minify: TerserPlugin.swcMinify,
       }),
-      // new CssMinimizerPlugin({
-      //   minify: CssMinimizerPlugin.lightningCssMinify,
-      // }),
+      new CssMinimizerPlugin({
+        minify: CssMinimizerPlugin.lightningCssMinify,
+        // minimizerOptions: {
+        //   targets: lightningcss.browserslistToTargets(browserslist('>= 0.25%'))
+        // },
+      }),
     ],
     splitChunks: {
       chunks: 'all',
