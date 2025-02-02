@@ -18,4 +18,4 @@ RUN yarn
 ENTRYPOINT ["./entrypoint.sh"]
 
 # docker build -t server .
-# docker run --name server -p 4040:3030 server
+# docker run --name server -p 4040:3030 -it server /bin/bash
