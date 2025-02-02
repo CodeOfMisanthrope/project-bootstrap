@@ -67,9 +67,11 @@ const config = {
         test: /\.js(\?.*)?$/i,
         extractComments: "all",
         parallel: false,
-        // minify: TerserPlugin.swcMinify,
+        minify: TerserPlugin.swcMinify,
       }),
-      new CssMinimizerPlugin(),
+      // new CssMinimizerPlugin({
+      //   minify: CssMinimizerPlugin.lightningCssMinify,
+      // }),
     ],
     splitChunks: {
       chunks: 'all',
