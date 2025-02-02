@@ -66,7 +66,7 @@ const config = {
       new TerserPlugin({
         test: /\.js(\?.*)?$/i,
         extractComments: "all",
-        parallel: true,
+        parallel: false,
         minify: TerserPlugin.swcMinify,
       }),
       new CssMinimizerPlugin({
