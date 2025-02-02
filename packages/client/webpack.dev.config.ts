@@ -22,6 +22,7 @@ const config = {
   },
 
   devServer: {
+    historyApiFallback: true,
     // static: "vendor"
   },
 
