@@ -29,5 +29,10 @@
     "react": "^18",
     "react-dom": "^18",
     "react-router-dom": "^6"
+  },
+  "optionalDependencies": {
+    "lightningcss-darwin-arm64": "^1.29.1",
+    "lightningcss-linux-arm64-gnu": "^1.29.1",
+    "lightningcss-linux-x64-gnu": "^1.29.1"
   }
 }
