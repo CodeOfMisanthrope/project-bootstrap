@@ -15,6 +15,9 @@ RUN chmod +x ./entrypoint.sh
 RUN corepack enable
 RUN yarn
 
+# todo
+# RUN yarn workspace @project-bootstrap/pkg-client build
+
 ENTRYPOINT ["./entrypoint.sh"]
 
 # docker build -t server .
