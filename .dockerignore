@@ -1,0 +1,7 @@
+.idea
+.vscode
+
+node_modules
+
+packages/client/dist
+packages/server/.esbuild
