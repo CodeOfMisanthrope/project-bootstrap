@@ -3,5 +3,9 @@
 
 node_modules
 
+.editorconfig
+.gitattributes
+.gitignore
+
 packages/client/dist
 packages/server/.esbuild
