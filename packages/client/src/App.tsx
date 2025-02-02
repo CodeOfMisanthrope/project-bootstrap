@@ -1,9 +1,18 @@
 import React from "react";
+import {Route, Routes} from "react-router-dom";
 import "~assets/style/main.css";
+import MainPage from "~pages/Main";
+import ItemPage from "~pages/Item";
 
 function App() {
   return (
-    <div className="App">Hello, Monorepo!</div>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<MainPage/>}/>
+        <Route path="/item" element={<ItemPage/>}/>
+      </Routes>
+      {/*Hello, Monorepo!*/}
+    </div>
   )
 }
 
