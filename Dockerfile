@@ -1,6 +1,6 @@
 FROM node:22.11
 
-EXPOSE 3030
+EXPOSE 4040
 
 WORKDIR app
 
@@ -17,6 +17,5 @@ RUN yarn
 
 ENTRYPOINT ["./entrypoint.sh"]
 
-# docker build -t server .   (все ок)
-# docker run -d --name server server
-# docker run --name server -it server /bin/bash
+# docker build -t server .
+# docker run --name server -p 4040:3030 server
