@@ -69,12 +69,10 @@ const config = {
         parallel: true,
         minify: TerserPlugin.swcMinify,
       }),
-      new CssMinimizerPlugin({
-        minify: CssMinimizerPlugin.lightningCssMinify,
-        // minimizerOptions: {
-        //   targets: lightningcss.browserslistToTargets(browserslist('>= 0.25%'))
-        // },
-      }),
+      new CssMinimizerPlugin()
+      // new CssMinimizerPlugin({
+      //   minify: CssMinimizerPlugin.lightningCssMinify,
+      // }),
     ],
     splitChunks: {
       chunks: 'all',
@@ -87,9 +85,9 @@ const config = {
           test: /[/\\]node_modules[/\\]react-dom[/\\]/,
           filename: "react-dom.[contenthash].js",
         },
-        "react-router": {
+        "react-router-dom": {
           test: /[/\\]node_modules[/\\]react-router[/\\]/,
-          filename: "react-router.[contenthash].js",
+          filename: "react-router-dom.[contenthash].js",
         }
       }
     }
