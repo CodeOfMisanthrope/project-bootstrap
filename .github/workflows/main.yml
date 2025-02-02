@@ -57,4 +57,7 @@ jobs:
         run: yarn
 
       - name: Run build
+        run: yarn workspace @project-bootstrap/pkg-client build
+
+      - name: Run build
         run: workspace @project-bootstrap/pkg-server start
