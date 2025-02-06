@@ -1,14 +1,14 @@
 {
-  "$schema": "https://swc.rs/schema.json",
-  "jsc": {
-    "parser": {
-      "syntax": "typescript",
-      "tsx": false,
-      "decorators": true,
-      "dynamicImport": true,
-      "privateMethod": true
-    },
-    "target": "es2015"
-  },
-  "minify": true
+   "$schema": "https://swc.rs/schema.json",
+   "jsc": {
+      "parser": {
+         "syntax": "typescript",
+         "tsx": false,
+         "decorators": true,
+         "dynamicImport": true,
+         "privateMethod": true
+      },
+      "target": "es2015"
+   },
+   "minify": true
 }

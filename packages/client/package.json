@@ -1,33 +1,33 @@
 {
-  "name": "@project-bootstrap/pkg-client",
-  "type": "module",
-  "packageManager": "yarn@4.6.0",
-  "scripts": {
-    "serve": "node --experimental-transform-types ../../node_modules/webpack/bin/webpack.js serve --config webpack.dev.config.ts",
-    "build": "node --experimental-transform-types ../../node_modules/webpack/bin/webpack.js build --config webpack.prod.config.ts"
-  },
-  "devDependencies": {
-    "@swc/core": "^1.10.12",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@types/webpack": "^5.28.5",
-    "css-loader": "^7.1.2",
-    "css-minimizer-webpack-plugin": "^7.0.0",
-    "html-webpack-plugin": "^5.6.3",
-    "lightningcss": "^1.25.1",
-    "mini-css-extract-plugin": "^2.9.2",
-    "style-loader": "^4.0.0",
-    "swc-loader": "^0.2.6",
-    "terser-webpack-plugin": "^5.3.11",
-    "ts-loader": "^9.5.2",
-    "tsx": "^4.19.2",
-    "webpack": "^5.97.1",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.0"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "react-router-dom": "^6"
-  }
+   "name": "@project-bootstrap/pkg-client",
+   "type": "module",
+   "packageManager": "yarn@4.6.0",
+   "scripts": {
+      "serve": "node --experimental-transform-types ../../node_modules/webpack/bin/webpack.js serve --config webpack.dev.config.ts",
+      "build": "node --experimental-transform-types ../../node_modules/webpack/bin/webpack.js build --config webpack.prod.config.ts"
+   },
+   "devDependencies": {
+      "@swc/core": "^1.10.12",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "@types/webpack": "^5.28.5",
+      "css-loader": "^7.1.2",
+      "css-minimizer-webpack-plugin": "^7.0.0",
+      "html-webpack-plugin": "^5.6.3",
+      "lightningcss": "^1.25.1",
+      "mini-css-extract-plugin": "^2.9.2",
+      "style-loader": "^4.0.0",
+      "swc-loader": "^0.2.6",
+      "terser-webpack-plugin": "^5.3.11",
+      "ts-loader": "^9.5.2",
+      "tsx": "^4.19.2",
+      "webpack": "^5.97.1",
+      "webpack-cli": "^6.0.1",
+      "webpack-dev-server": "^5.2.0"
+   },
+   "dependencies": {
+      "react": "^18",
+      "react-dom": "^18",
+      "react-router-dom": "^6"
+   }
 }

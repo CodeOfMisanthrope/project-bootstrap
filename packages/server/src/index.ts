@@ -1,5 +1,5 @@
 import path from "node:path";
-import express, {Express, Request, Response} from "express";
+import express, { Express, Request, Response } from "express";
 import cors from "cors";
 
 const app = express();
@@ -9,9 +9,9 @@ const expressStatic = path.resolve(dirname, "..", "..", "client", "dist");
 console.log(expressStatic);
 
 app.use(
-  cors({
-    origin: "http://localhost:4040",
-  })
+   cors({
+      origin: "http://localhost:4040",
+   }),
 );
 
 app.use(express.static(expressStatic));
@@ -21,9 +21,9 @@ app.use(express.static(expressStatic));
 // });
 
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve(expressStatic, "index.html"));
+   res.sendFile(path.resolve(expressStatic, "index.html"));
 });
 
 app.listen(PORT, () => {
-  console.log(`Server listening on http://localhost:${PORT}`);
+   console.log(`Server listening on http://localhost:${PORT}`);
 });

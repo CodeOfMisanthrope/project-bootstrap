@@ -1,55 +1,49 @@
 {
-  "extends": "../../tsconfig.json",
-  "compilerOptions": {
-    "target": "ESNext",
-    "lib": [
-      "ESNext"
-    ],
-    "types": [
-      "node"
-    ],
-//    "outDir": "./dist",
-//    "declarationDir": "./dist",
-//    "skipLibCheck": true,
-//    "allowSyntheticDefaultImports": true,
-//    "esModuleInterop": true,
-//    "strict": true,
-//    "forceConsistentCasingInFileNames": true,
-//    "module": "ESNext",
-//    "moduleResolution": "Node",
-//    "resolveJsonModule": true,
-//    "isolatedModules": true,
-////    "noEmit": true,
-//    "newLine": "LF",
-//    "declaration": true,
-//    "declarationDir": "dist",
-    "rootDir": ".",
-    "baseUrl": "./",
-//    "paths": {
-//      "~api/*": [
-//        "src/api/*"
-//      ],
-//      "~constants/*": [
-//        "src/constants/*"
-//      ],
-//      "~controllers/*": [
-//        "src/controllers/*"
-//      ],
-//      "~dtos/*": [
-//        "src/dtos/*"
-//      ],
-//      "~routes/*": [
-//        "src/routes/*"
-//      ],
-//      "~core/*": [
-//        "src/core/*"
-//      ],
-//      "~assets/*": [
-//        "assets/*"
-//      ]
-//    }
-  },
-  "include": [
-    "src"
-  ]
+   "extends": "../../tsconfig.json",
+   "compilerOptions": {
+      "target": "ESNext",
+      "lib": ["ESNext"],
+      "types": ["node"],
+      //    "outDir": "./dist",
+      //    "declarationDir": "./dist",
+      //    "skipLibCheck": true,
+      //    "allowSyntheticDefaultImports": true,
+      //    "esModuleInterop": true,
+      //    "strict": true,
+      //    "forceConsistentCasingInFileNames": true,
+      //    "module": "ESNext",
+      //    "moduleResolution": "Node",
+      //    "resolveJsonModule": true,
+      //    "isolatedModules": true,
+      ////    "noEmit": true,
+      //    "newLine": "LF",
+      //    "declaration": true,
+      //    "declarationDir": "dist",
+      "rootDir": ".",
+      "baseUrl": "./"
+      //    "paths": {
+      //      "~api/*": [
+      //        "src/api/*"
+      //      ],
+      //      "~constants/*": [
+      //        "src/constants/*"
+      //      ],
+      //      "~controllers/*": [
+      //        "src/controllers/*"
+      //      ],
+      //      "~dtos/*": [
+      //        "src/dtos/*"
+      //      ],
+      //      "~routes/*": [
+      //        "src/routes/*"
+      //      ],
+      //      "~core/*": [
+      //        "src/core/*"
+      //      ],
+      //      "~assets/*": [
+      //        "assets/*"
+      //      ]
+      //    }
+   },
+   "include": ["src"]
 }
