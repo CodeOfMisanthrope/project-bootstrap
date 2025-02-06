@@ -1,0 +1,12 @@
+/.idea
+/.vscode
+
+/coverage
+
+/node_modules
+
+/packages/client/dist
+/packages/client/node_modules
+
+/packages/server/.esbuild
+/packages/server/node_modules

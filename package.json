@@ -26,8 +26,13 @@
     "packages/common",
     "packages/server"
   ],
+  "scripts": {
+    "fmt:write": "prettier packages --write",
+    "fmt:check": "prettier packages --check"
+  },
   "devDependencies": {
     "@types/node": "^22.12.0",
+    "prettier": "3.4.2",
     "typescript": "^5.7.3"
   }
 }
