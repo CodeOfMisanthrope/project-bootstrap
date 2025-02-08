@@ -19,3 +19,4 @@ node_modules
 
 packages/server/.esbuild
 packages/client/dist
+packages/client/coverage
