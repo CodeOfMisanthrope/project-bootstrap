@@ -39,5 +39,8 @@
       },
       "jsx": "react"
    },
-   "include": ["src"]
+   "include": [
+     "src",
+     "index.d.ts"
+   ]
 }
