@@ -4,7 +4,8 @@
    "packageManager": "yarn@4.6.0",
    "scripts": {
       "serve": "node --experimental-transform-types ../../node_modules/webpack/bin/webpack.js serve --config webpack.dev.config.ts",
-      "build": "node --experimental-transform-types ../../node_modules/webpack/bin/webpack.js build --config webpack.prod.config.ts"
+      "build": "node --experimental-transform-types ../../node_modules/webpack/bin/webpack.js build --config webpack.prod.config.ts",
+      "test": "jest"
    },
    "devDependencies": {
       "@swc/core": "^1.10.12",
